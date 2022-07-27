@@ -1,0 +1,124 @@
+/* TABLET */
+@media screen and (min-width:740px) and (max-width: 1023px){
+    .about-discription{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .hide-on-tablet{
+        display: none;
+    }
+    .tour-time{
+        max-width: 100%;
+    }
+    #main{
+        overflow: hidden;
+    }
+    .map img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .content-section{
+        max-width:800px;
+    }
+    .about-discription,
+    .content-location,
+    .contact-connect
+    {
+        padding: 0 8px;
+    }
+    .tour-time
+    {
+        margin: 64px  8px;
+    }
+    .btn-contact{
+        margin: 16px 8px;
+    }
+}
+/* MOBILE */
+@media screen and (max-width:739px) {
+    .nav_search,
+    .text-content{
+        display:none;
+    }
+    .about-discription{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .about-discription,
+    .contact-connect
+    {
+        padding: 0 8px;
+    }
+    .tour-time
+    {
+        margin: 64px  8px;
+    }
+    .row{
+        padding: 0!important;
+        margin-bottom: 16px;
+    }
+    .content-location{
+        margin: 0 8px 16px 8px;
+    }
+    .contact-connect{
+        display:flex;
+        flex-direction:column;  
+    }
+    .connect-input{
+        display:flex;
+        flex-direction: column;
+    }
+    .btn-contact{
+        margin: 16px 8px;
+    }
+    .show{
+        display: block;
+    }
+    .hide-on-mobile{
+        display:none;
+    }
+    .nav-list-icon{
+        color: #fff;
+        height: 15px;
+        width: 15px;
+    }
+    .nav-new{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+        line-height:46px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        padding:0 24px;
+        text-transform: uppercase;
+    }
+    .nav-child{
+        position:fixed;
+        top:46px;
+        left:0;
+        right:0;
+        width: 100%;   
+        display:none; 
+    }
+    .nav-child a{
+        text-decoration: none;
+        color: #fff;
+        padding:0 24px;
+        text-transform: uppercase;
+    }
+    .nav-child li{
+        list-style: none;
+        background-color: #000;
+    }
+    .is-show{
+        display:block;
+        transition: opacity ease-in 0,2s;
+        will-change: opacity;
+    }
+}
+/* TABLET AND MOBILE */
+@media screen and (max-width : 1023px) {
+}
